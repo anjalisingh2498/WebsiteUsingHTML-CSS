@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quality of Service</title>
+	<style type="text/css">
+		body {
+			background-color: #f1f1f1;
+			font-family: Arial, sans-serif;
+		}
+		h1 {
+			text-align: center;
+			font-size: 36px;
+			color: #ca1d1d;
+			margin-top: 50px;
+		}
+		p {
+			font-size: 18px;
+			color: #555;
+			margin: 20px;
+            text-align: center;
+		}
+		.container {
+			margin: 50px auto;
+			width: 80%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		.box {
+			width: 30%;
+			min-height: 200px;
+			background-color: #fff;
+			padding: 20px;
+			margin-bottom: 30px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+		}
+		.box h2 {
+			color: #333;
+			font-size: 24px;
+			margin-top: 0;
+		}
+		.box p {
+			color: #666;
+			font-size: 18px;
+			margin-top: 10px;
+		}
+		.green {
+			background-color: #66c2a5;
+		}
+		.blue {
+			background-color: #8da0cb;
+		}
+		.yellow {
+			background-color: #fc8d62;
+		}
+	</style>
+</head>
+<body>
+	<h1>Quality of Service</h1>
+	<p>Quality of Service (QoS) is a set of technologies that enable reliable and predictable network performance by prioritizing network traffic.</p>
+	<div class="container">
+        <div class="box blue">
+			<h2>Application Requirement</h2>
+			<p>Application Requirement is a QoS technique that refers to the different needs and prioritize of different applications that run on the network.It consist the 4 parameter. They are Bandwidth,Delay,Jitter,Loss.</p>
+		</div>
+		<div class="box green">
+			<h2>Traffic Shaping</h2>
+			<p>Traffic shaping is a QoS technique that controls the rate of traffic sent or received by a network device. This can help to prevent network congestion and improve overall network performance.</p>
+		</div>
+		<div class="box blue">
+			<h2>Packet Scheduling</h2>
+			<p>Packet scheduling is a QoS technique that determines how packets are sent or received by a network device. This can help to ensure that critical traffic is prioritized over less important traffic.</p>
+		</div>
+		<div class="box yellow">
+			<h2>Admission Control</h2>
+			<p>Admission control is a QoS technique that limits the amount of traffic that is allowed on a network. This can help to prevent network congestion and ensure that network performance remains reliable.</p>
+		</div>
+        
+		<div class="box yellow">
+			<h2>Integrated Service</h2>
+			<p>Integrated services is a QoS model that provides end-to-end quality of service by reserving network resources for specific applications or services. This can be done using protocols such as RSVP.</p>
+		</div>
+		<div class="box green">
+			<h2>Differentiated Service</h2>
+			<p>Differentiated services is a QoS model that provides different levels of service to different types of traffic. This can be done using techniques such as classifier service and expedited service.</p>
+		</div>
+	</div>
+</body>
+</html>
